@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula while</title>
+</head>
+<body>
+    <h1>Aula while</h1>
+    
+    <script>
+        //Criar variaveis
+        while(true){
+        var usuario = prompt ("Digite o seu usuario")
+        var senha = parseInt (prompt("Digite a sua senha"))
+
+        //criar a condição IF ELSE
+        if(usuario == "Anna" && senha == "1234"){
+    document.write("Login feito com sucesso!")
+    window.location.href = "/page.html"
+    break;
+        } else {
+            alert("Usuario/senha incorretos! Tente novamente!")
+        }
+    }
+    </script>
+</body>
+</html>
